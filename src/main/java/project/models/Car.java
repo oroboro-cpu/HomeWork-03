@@ -20,7 +20,7 @@ public class Car {
         this.manufacturer = manufacturer;
     }
 
-    public void setDrivers(List<project.models.Driver> drivers) {
+    public void setDrivers(List<Driver> drivers) {
         this.drivers = drivers;
     }
 }
