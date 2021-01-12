@@ -23,4 +23,20 @@ public class Car {
     public void setDrivers(List<Driver> drivers) {
         this.drivers = drivers;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Manufacturer getManufacturer() {
+        return manufacturer;
+    }
+
+    public List<Driver> getDrivers() {
+        return drivers;
+    }
 }
